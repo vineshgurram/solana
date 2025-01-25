@@ -1,0 +1,10 @@
+
+@mixin blue-linear-gradient{
+    background: rgb(0,71,255);
+    background: linear-gradient(90deg, rgba(0,71,255,1) 0%, rgba(0,188,212,1) 35%); 
+}
+
+@mixin purple-linear-gradient{
+    background: rgb(140,1,250);
+    background: linear-gradient(90deg, rgba(140,1,250,1) 0%, rgba(0,0,0,1) 35%);  
+}

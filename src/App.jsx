@@ -1,20 +1,21 @@
-import { useState } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./assets/sass/custom.scss";
-import { Stack, Button } from "react-bootstrap";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Homepage from "./pages/Homepage";
+import About from "./pages/About";
 
 function App() {
   return (
     <>
-      <h1>Solana</h1>
-      <Stack direction="horizontal" gap={2}>
-        <Button as="a" variant="primary">
-          Button as link
-        </Button>
-        <Button as="a" variant="success">
-          Button as link
-        </Button>
-      </Stack>
-      ;
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/about-us" element={<About />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }

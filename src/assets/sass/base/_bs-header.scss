@@ -1,0 +1,24 @@
+.bs-header{
+    background-color: $clr-black3;
+    
+    .navbar{
+        padding: 22px 0;
+        margin: 0;
+
+        .navbar-toggler{
+            background-color: $clr-white;
+        }
+        
+        .offcanvas-body{
+            .navbar-nav{
+                gap: 32px;
+
+                .nav-link{
+                    font-size: 17px;
+                    line-height: 1;
+                    color: $clr-grey;
+                }
+            }
+        }
+    }
+}

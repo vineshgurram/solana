@@ -1,3 +1,26 @@
-/* The following line can be included in a src/App.scss */
+
 @import "bootstrap/scss/bootstrap";
-@import './common/common.scss';
+
+
+
+@import './config/mixins';
+@import './config/variables';
+
+@import './fonts/font';
+
+
+
+@import './common/common';
+
+
+
+@import './base/bs-header';
+@import './base/bs-footer';
+@import './base/bs-modal';
+@import './base/bs-heading';
+@import './base/bs-para';
+@import './base/bs-btn';
+@import './base/bs-top-strip';
+@import './base/bs-banner';
+// @import './base/bs-model';
+// @import './base/bs-model';

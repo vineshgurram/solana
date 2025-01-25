@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: $fnt1;
+    background-color: $clr-black;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.max-777{
+    max-width: 777px;
+}

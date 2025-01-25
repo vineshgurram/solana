@@ -1,0 +1,13 @@
+.bs-para{
+    font-size: 17px;
+    line-height: 1;
+    color: $clr-black;
+
+    &.typ-21{
+        font-size: 21px;
+    }
+
+    &.typ-white{
+        color: $clr-white;
+    }
+}
