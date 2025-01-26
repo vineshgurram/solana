@@ -1,1 +1,1 @@
-# Solana Landing Page
+# Solana

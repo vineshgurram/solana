@@ -9,8 +9,19 @@ $clr-black2: #111111;
 $clr-black3: rgba(0, 0, 0, 0.6);
 $clr-black4: #141414;
 $clr-blue-dk: #000508;
+$clr-blue: #618ADC;
 
 
 
 $fnt1: "Roboto", serif;
+$fnt2: 'Helvetica-Regular', serif;
 
+
+@font-face {
+    font-family: 'Helvetica-Regular';
+    src: url('../fonts/helvetica.woff2') format('woff2'),
+         url('../fonts/helvetica.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

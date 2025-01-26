@@ -1,3 +1,33 @@
-.bs-banner{
+.bs-banner {
     height: 670px;
+    position: relative;
+    overflow: hidden;
+
+    .text-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: $clr-black3;
+    }
+
+    .banner-img{
+        object-fit: cover;
+        object-position: center;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 1023px) {
+    .bs-banner {
+    
+        .text-wrapper {
+        }
+    
+        .banner-img{
+        }
+    }
 }

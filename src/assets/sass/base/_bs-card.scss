@@ -1,0 +1,15 @@
+.bs-card {
+    &.typ-adoption {
+     .card{
+        background-color: $clr-black3;
+        padding: 32px;
+        border-radius: 32px;
+
+        .card-body{
+            .card-title{
+
+            }
+        }
+     }
+    }
+}

@@ -10,7 +10,9 @@ import {
   SplitButton,
 } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import logo from "../assets/images/logo-icon.svg";
+import logo from "/images/logo-icon.svg";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Footer() {
   return (
@@ -68,16 +70,16 @@ export default function Footer() {
               <div className="links-wrapper">
                 <Nav className="d-block">
                   <NavItem>
-                    <Nav.Link href="#action1">Learn</Nav.Link>
+                    <Nav.Link href="#action1">Grants</Nav.Link>
                   </NavItem>
                   <NavItem>
-                    <Nav.Link href="#action1">Learn</Nav.Link>
+                    <Nav.Link href="#action1">Break Solana</Nav.Link>
                   </NavItem>
                   <NavItem>
-                    <Nav.Link href="#action1">Learn</Nav.Link>
+                    <Nav.Link href="#action1">Careers</Nav.Link>
                   </NavItem>
                   <NavItem>
-                    <Nav.Link href="#action1">Learn</Nav.Link>
+                    <Nav.Link href="#action1">Disclaimer</Nav.Link>
                   </NavItem>
                 </Nav>
               </div>
@@ -85,20 +87,17 @@ export default function Footer() {
           </Col>
           <Col md={2}>
             <div className="column-2">
-              <h3 className="column-heading mb-20">Solana</h3>
+              <h3 className="column-heading mb-20">Get Connected</h3>
               <div className="links-wrapper">
                 <Nav className="d-block">
                   <NavItem>
-                    <Nav.Link href="#action1">Learn</Nav.Link>
+                    <Nav.Link href="#action1">Ecosystem</Nav.Link>
                   </NavItem>
                   <NavItem>
-                    <Nav.Link href="#action1">Learn</Nav.Link>
+                    <Nav.Link href="#action1">Blog</Nav.Link>
                   </NavItem>
                   <NavItem>
-                    <Nav.Link href="#action1">Learn</Nav.Link>
-                  </NavItem>
-                  <NavItem>
-                    <Nav.Link href="#action1">Learn</Nav.Link>
+                    <Nav.Link href="#action1">Newsletter</Nav.Link>
                   </NavItem>
                 </Nav>
               </div>
@@ -106,7 +105,9 @@ export default function Footer() {
           </Col>
           <Col md={2}>
             <div className="">
-              <button className="btn bs-btn typ-lang"><span class="icon icon-globe me-2"></span>EN</button>
+              <button className="btn bs-btn typ-lang">
+                <span className="icon icon-globe me-2"></span>EN
+              </button>
             </div>
           </Col>
         </Row>

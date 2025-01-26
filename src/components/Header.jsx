@@ -9,13 +9,13 @@ import {
   NavItem,
 } from "react-bootstrap";
 
-import logo from "../assets/images/logo.svg";
+import logo from "/images/logo.svg";
 import TopStrip from "./TopStrip";
 import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <header className="bs-header fixed-top">
+    <header className="bs-header sticky-top">
       <TopStrip />
       {["lg"].map((expand) => (
         <Navbar key={expand} expand={expand}>

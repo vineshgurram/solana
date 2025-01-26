@@ -1,10 +1,25 @@
 
 @mixin blue-linear-gradient{
     background: rgb(0,71,255);
-    background: linear-gradient(90deg, rgba(0,71,255,1) 0%, rgba(0,188,212,1) 35%); 
+    background: linear-gradient(90deg, rgba(0,71,255,1) 0%, rgba(0,188,212,1) 100%); 
 }
 
 @mixin purple-linear-gradient{
     background: rgb(140,1,250);
-    background: linear-gradient(90deg, rgba(140,1,250,1) 0%, rgba(0,0,0,1) 35%);  
+    background: linear-gradient(90deg, rgba(140,1,250,1) 0%, rgba(0,0,0,1) 100%);  
+}
+
+@mixin purple-linear-gradient2{
+     background: rgb(25,251,155);
+background: linear-gradient(-90deg, rgba(25,251,155,1) 0%, rgba(140,1,250,1) 100%); 
+}
+
+@mixin green-linear-gradient{
+    background: rgb(25,251,155);
+    background: linear-gradient(90deg, rgba(25,251,155,1) 0%, rgba(140,1,250,1) 100%); 
+}
+
+@mixin green-linear-gradient2{
+    background: rgb(0,255,189);
+    background: linear-gradient(-90deg, rgba(0,255,189,1) 0%, rgba(2,91,140,1) 100%); 
 }

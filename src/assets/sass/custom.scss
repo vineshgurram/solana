@@ -6,11 +6,15 @@
 @import './config/mixins';
 @import './config/variables';
 
+
 @import './fonts/font';
 
 
 
 @import './common/common';
+
+
+@import './layout/lyt-section';
 
 
 
@@ -22,5 +26,5 @@
 @import './base/bs-btn';
 @import './base/bs-top-strip';
 @import './base/bs-banner';
-// @import './base/bs-model';
-// @import './base/bs-model';
+@import './base/bs-swiper';
+@import './base/bs-card';

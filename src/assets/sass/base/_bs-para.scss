@@ -1,6 +1,6 @@
 .bs-para{
     font-size: 17px;
-    line-height: 1;
+    line-height: 1.5;
     color: $clr-black;
 
     &.typ-21{
@@ -9,5 +9,19 @@
 
     &.typ-white{
         color: $clr-white;
+    }
+    
+    &.typ-grey1{
+        color: $clr-grey1;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .bs-para{
+        font-size: 15px;
+    
+        &.typ-21{
+            font-size: 17px;
+        }
     }
 }
