@@ -8,7 +8,7 @@ import About from "./pages/About";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="solana">
         <Header />
         <Routes>
           <Route path="/" element={<Homepage />} />

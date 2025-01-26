@@ -52,7 +52,7 @@ export default function ClientsSection() {
   return (
     <Section className="typ-clients">
       <Container>
-        <h2 className="bs-heading typ-15 typ-blue typ-400 text-uppercase text-center mb-50">
+        <h2 className="bs-heading typ-15 typ-blue typ-400 text-uppercase text-center mb-50" data-aos="fade-up">
           Powering tools and integrations from companies all around the world
         </h2>
         <div className="bs-swiper typ-clients">
@@ -73,7 +73,7 @@ export default function ClientsSection() {
           >
             {companiesImages.map((companies, index) => (
               <SwiperSlide key={index}>
-                <div className="companies-img-box text-center">
+                <div className="companies-img-box text-center" data-aos="fade-up">
                   <img
                     src={companies.desktopImage}
                     className="img-fluid"
