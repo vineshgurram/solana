@@ -7,43 +7,43 @@ import "swiper/css/autoplay";
 
 const companiesImages = [
   {
-    desktopImage: "solana/images/home/companies-1.png",
-    mobileImage: "solana/images/home/companies-1.png",
+    desktopImage: "/solana/images/home/companies-1.png",
+    mobileImage: "/solana/images/home/companies-1.png",
     alternateText: "companies",
   },
   {
-    desktopImage: "solana/images/home/companies-2.png",
-    mobileImage: "solana/images/home/companies-2.png",
+    desktopImage: "/solana/images/home/companies-2.png",
+    mobileImage: "/solana/images/home/companies-2.png",
     alternateText: "companies",
   },
   {
-    desktopImage: "solana/images/home/companies-3.png",
-    mobileImage: "solana/images/home/companies-3.png",
+    desktopImage: "/solana/images/home/companies-3.png",
+    mobileImage: "/solana/images/home/companies-3.png",
     alternateText: "companies",
   },
   {
-    desktopImage: "solana/images/home/companies-4.png",
-    mobileImage: "solana/images/home/companies-4.png",
+    desktopImage: "/solana/images/home/companies-4.png",
+    mobileImage: "/solana/images/home/companies-4.png",
     alternateText: "companies",
   },
   {
-    desktopImage: "solana/images/home/companies-5.png",
-    mobileImage: "solana/images/home/companies-5.png",
+    desktopImage: "/solana/images/home/companies-5.png",
+    mobileImage: "/solana/images/home/companies-5.png",
     alternateText: "companies",
   },
   {
-    desktopImage: "solana/images/home/companies-6.png",
-    mobileImage: "solana/images/home/companies-6.png",
+    desktopImage: "/solana/images/home/companies-6.png",
+    mobileImage: "/solana/images/home/companies-6.png",
     alternateText: "companies",
   },
   {
-    desktopImage: "solana/images/home/companies-7.png",
-    mobileImage: "solana/images/home/companies-7.png",
+    desktopImage: "/solana/images/home/companies-7.png",
+    mobileImage: "/solana/images/home/companies-7.png",
     alternateText: "companies",
   },
   {
-    desktopImage: "solana/images/home/companies-7.png",
-    mobileImage: "solana/images/home/companies-7.png",
+    desktopImage: "/solana/images/home/companies-7.png",
+    mobileImage: "/solana/images/home/companies-7.png",
     alternateText: "companies",
   },
 ];
